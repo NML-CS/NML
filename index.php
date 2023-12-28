@@ -1,4 +1,6 @@
-
+<!DOCTYPE html>
+<html>
+<body>
 <?
 
 require 'steamauth/steamauth.php';
@@ -43,3 +45,5 @@ else
 
 <? echo loginbutton(); ?>
 
+</body>
+</html>
