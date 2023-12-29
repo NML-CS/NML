@@ -13,3 +13,4 @@ $steam_login_url = 'https://steamcommunity.com/openid/login'.'?'.http_build_quer
 
 header("location: $steam_login_url");
 exit();
+?>
