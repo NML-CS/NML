@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!$_SESSION['logged_in']){
-    header("location: error.php");
+    header("location: error.html");
     exit();
 }
 
@@ -23,7 +23,7 @@ $avatar = $_SESSION['userData']['avatar'];
         <div class="text-4xl mt-3 flex items-center font-medium">
             <img src='<?php echo $avatar;?>' class="rounded-full w-12 h-12 mr-3"/>
             <?php echo $username;?></div>
-        <a href="logout.php" class="text-sm mt-5">Logout</a>
+        <a href="logout.html" class="text-sm mt-5">Logout</a>
     </div>
 
 </body>
