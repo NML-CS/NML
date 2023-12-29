@@ -1,3 +1,9 @@
+session_start();
+if(!$_SESSION['logged_in']){
+    header("location: error.php");
+    exit();
+}
+
 <!doctype html>
 <html>
 <head>
